@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+
+.bg{
+    margin: 0px;
+    border: 0px;
+}
+
+.dark-bg{
+    margin: 0px;
+    border: 0px;
+    background-color: #1f2937;
+
+}
+
+.button{
+    background-color: #3882F6;
+    color: whitesmoke;
+    width: 10%;
+    height: auto;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 5px;
+}
+
+/*This is to make sure there is some gap between the hero nav elements*/

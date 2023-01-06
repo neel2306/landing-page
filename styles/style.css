@@ -87,6 +87,10 @@ nav .logo{
     background-color: #f9faf8;
 }
 
+.white-bg-1{
+    padding-bottom: 50px;
+}
+
 .info-header{
     display: flex;
     margin: auto;
@@ -132,3 +136,73 @@ nav .logo{
     padding-right: 80px;
 }
 
+.quote{
+    background-color: #e5e7eb;
+    height: 500px;
+}
+
+.quote #content{
+    text-align: start;
+    word-wrap: break-word;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+.quote #author{
+    font-size: 24px;
+    padding-left: 1200px;
+    
+}
+
+
+.blue-bg{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 40px 100px;
+}
+
+.blue-bg #call-action{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blue-bg #call-action-subtext{
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.blue-bg .button2{
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: white;
+    width: 15%;
+    height: 50px;
+    font-size: 18px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer-class{
+    background-color: #1f2937;
+    height: 90px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.footer-class p{
+    color: #f9faf8;
+    position: absolute;
+    left: 800px;
+    font-size: 18px;
+}
